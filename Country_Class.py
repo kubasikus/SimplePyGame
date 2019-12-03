@@ -8,5 +8,17 @@ class Country_Class():
     def __repr__(self):
         return 'Country is called: {} \n' \
                'It has {} lives and score of {} \n'.format(self.Country_name,
-                                                        self.Lives_num,
-                                                        self.Score)
+                                                           self.Lives_num,
+                                                           self.Score)
+
+    def set_lives(self, value):
+        self.Lives_num = value
+
+    def get_lives(self):
+        return self.Lives_num
+
+    def set_score(self,value):
+        self.Score=value
+
+    def get_score(self):
+        return self.Score

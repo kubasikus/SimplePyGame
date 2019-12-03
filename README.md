@@ -14,6 +14,8 @@ The goal of this project is to create a simple text game where player can choose
   
 3. Create main loop which outputs/inputs from CLI and allows the player to take action
 
+3a. Add player class
+
 4. Write unit tests
 
 5. Setup CI pipeline
